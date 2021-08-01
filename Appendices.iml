@@ -9,11 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="adopt-openjdk-11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="me.tongfei:progressbar:0.9.2" level="project" />
     <orderEntry type="library" exported="" name="net.imagej:ij:1.53j" level="project" />
     <orderEntry type="library" exported="" name="com.opencsv:opencsv:5.5.1" level="project" />
     <orderEntry type="library" name="formats-api-6.6.1" level="project" />
+    <orderEntry type="library" name="Jama-1.0.3" level="project" />
   </component>
 </module>
