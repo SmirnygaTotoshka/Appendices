@@ -22,6 +22,7 @@ import ij.plugin.filter.LutApplier;
 import ij.plugin.filter.ParticleAnalyzer;
 import ij.plugin.filter.RankFilters;
 import ij.process.ColorProcessor;
+import loci.common.Location;
 import loci.formats.FormatException;
 import loci.formats.ImageReader;
 import loci.formats.gui.BufferedImageReader;
@@ -335,7 +336,6 @@ public class Appendices_ {
         File[] inputFiles = new File(inputPath).listFiles();
         int num_files = inputFiles.length;
         System.out.close();
-
         for (int i = 0; i < num_files; i++) {
             ImageReader imageReader = new ImageReader(); //Byte reader
             String inputName = inputFiles[i].getName();
